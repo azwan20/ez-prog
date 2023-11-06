@@ -1,0 +1,402 @@
+:root {
+  --primary: #30B3E7;
+  --secondary: #3C5BA9;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.utama {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.utama1 {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+
+.utama1 div {
+  display: flex;
+}
+
+.svg1 {
+  margin-right: 40px;
+}
+
+.svg2 {
+  margin-right: 40px;
+}
+
+.svgdiv2 svg {
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 77px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(48, 179, 231, 0.80);
+  border-radius: 0px 0px 30px 30px;
+  backdrop-filter: blur(3px);
+  position: fixed;
+}
+
+nav img{
+  width: 149px;
+  height: 42px;
+  margin-left: 19px;
+}
+
+nav .logonav{
+  height: 30px;
+  width: 95px;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div a {
+  display: flex;
+  margin: 0 130px;
+  font-size: 17px;
+  font-weight: 500px;
+  width: 120px;
+  height: 32px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+nav div a:hover {
+  display: flex;
+  width: 120px;
+  height: 32px;
+  color: #2CB3E8;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+main {
+  width: 100%;
+  /* height: 2505px; */
+}
+
+.umum{
+  /* background: url("/bg-land.svg"), linear-gradient(177deg, var(--primary) 2.65%, rgba(43, 179, 232, 0.80) 95.36%);
+  background-size: cover;  */
+  background: url("/home-bg.svg");
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  width: 100%;
+  height: 100vh;
+}
+
+.umum .rec{
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 10px;
+}
+
+.umum .bulat{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.conten {
+  /* background: linear-gradient(177deg, var(--primary) 2.65%, rgba(43, 179, 232, 0.80) 95.36%); */
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contain {
+  justify-content: center;
+  align-items: center;
+}
+
+.contain h1 {
+  margin: auto;
+  font-size: 47px;
+  width: 60%;
+  color: #fff;
+  font-weight: 500px;
+  text-align: center;
+}
+
+.contain span {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contain button {
+  width: 171px;
+  height: 53px;
+  border: 3px solid #fff;
+  margin: 5px;
+  color: #FFF;
+  border-radius: 20px;
+}
+
+.contain .btn1{
+  background-color: #FFF;
+  color: #2CB3E8;
+}
+
+.starServ{
+  width: 100%;
+  height: 1364px;
+  background: url("/star-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.starServ button{
+  margin: 144px 0 5px 13px;
+  width: 192px;
+  height: 51px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 29px;
+  background-color: #2CB3E8;
+}
+
+.star{
+  justify-content: space-between;
+  margin: auto 31px;
+  align-items: center;
+}
+
+.starServ span{
+  align-items: center;
+  width: 513px;
+  height: 332px;
+  font-size: 21px;
+}
+
+.starServ span p{
+  margin-bottom: 10px;
+}
+
+.service{
+  width: 100%;
+  height: 382px;
+  background-color: var(--primary);
+  margin-top: 60px;
+}
+
+.service span{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service .bg{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg img{
+  margin-bottom: 30px;
+}
+
+.service-item p{
+  text-align: center;
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+
+.porto{
+  width: 100%;
+  height: 832px;
+  background: url("/porto-bg.svg");
+}
+
+.porto button{
+  width: 192px;
+  height: 51px;
+  border-radius: 30px;
+  background-color: var(--primary);
+  color: #FFF;
+  text-align: center;
+  margin: 112px 0 56px 13px;
+  font-size: 29px;
+  font-weight: 500px;
+}
+
+.porto-item{
+  width: 100%;
+  height: 402px;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.porto-item span{
+  display: flex;
+  width: 534px;
+  height: 191px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0 25px 20px 13px;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+}
+
+.porto-item span div{
+  margin: auto;
+}
+
+.porto-item span h1{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.about{
+  width: 100%;
+  height: 757px;
+  background-color: var(--primary);
+}
+
+.about button{
+  width: 192px;
+  height: 51px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: var(--primary);
+  font-size: 29px;
+  font-weight: 700px;
+  text-align: center;
+  margin: auto;
+  margin-left: 13px;
+  margin-top: 112px;
+}
+
+.about-con{
+  align-items: center;
+  justify-content: center;
+}
+
+.about-contain{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 327px;
+  background: rgba(0, 0, 0, 0.30);
+  margin-top: 94px;
+}
+
+.about-item{
+  width: 177px;
+  height: 201px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  margin: 15px;
+  align-items: center;
+}
+
+.about-item img{
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.about-item p{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sosial{
+  text-align: end;
+  margin: 50px 29px 28px 0;
+}
+
+.sosial span{
+  justify-content: end;
+}
+
+.sosial-item{
+  justify-content: end;
+  width: 234px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.sosial-item img{
+  width: 38px;
+  height: 38px;
+  margin: auto;
+}
+
+.sosial p{
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.about-contain p{
+  /* text-align: end; */
+}
+
+.foot{
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  padding: 0 34px;
+}
+
+.foot-item p{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.foot img{
+  fill: #fff;
+  height: 30px;
+  width: 30px;
+}
+
+.footbot{
+  font-size: 11px;
+  color: #FFF;
+  margin: auto;
+}
