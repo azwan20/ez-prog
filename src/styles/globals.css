@@ -17,6 +17,8 @@ body {
   background: none;
   border: none;
   cursor: pointer;
+  margin-right: 20px;
+
 }
 
 .burger span {
@@ -354,12 +356,12 @@ main {
   margin-top: 112px;
 }
 
-.about-con{
-  width: fit-content;
+.about-con {
+  width: 100%;
 }
 
-.about-con a{
-  width:fit-content;
+.about-con a {
+  width: fit-content;
   padding: 0;
   /* margin: 0; */
 }
@@ -502,16 +504,16 @@ main {
     height: 25px;
     font-size: 14px;
   }
-  
+
   .star {
     display: block;
     flex-direction: column;
     margin: auto;
     justify-content: center;
     margin-top: 50px;
-    
+
   }
-  
+
   .star p {
     font-size: 14px;
     margin: auto;
@@ -523,45 +525,45 @@ main {
     width: 90%;
   }
 
-  .star span{
+  .star span {
     width: fit-content;
   }
 
-  .service{
+  .service {
     height: fit-content;
     padding-top: 40px;
   }
 
-  .service span{
+  .service span {
     margin: auto;
     height: fit-content;
   }
-  
-  .service .bg{
+
+  .service .bg {
     width: 100px;
     height: 100px;
     border-radius: 50%;
   }
 
-  .service-item .srv{
+  .service-item .srv {
     width: fit-content;
     margin: auto;
     margin-bottom: 20px;
   }
 
-  .porto button{
+  .porto button {
     width: 94px;
     height: 25px;
     font-size: 14px;
   }
 
-  .porto .porto-item{
+  .porto .porto-item {
     justify-content: center;
     height: fit-content;
     margin: auto;
   }
-  
-  .porto span{
+
+  .porto span {
     height: fit-content;
     width: 90%;
     margin: auto;
@@ -570,30 +572,31 @@ main {
     justify-content: center;
   }
 
-  .porto-item span{
+  .porto-item span {
     font-size: 9px;
   }
-  .porto-item span h1{
+
+  .porto-item span h1 {
     font-size: 13px;
   }
 
-  .porto-item img{
+  .porto-item img {
     width: 50%;
   }
 
-  .about{
+  .about {
     height: fit-content;
     padding-bottom: 20px;
   }
 
-  .about button{
+  .about button {
     width: 94px;
     height: 25px;
     font-size: 14px;
     margin-bottom: 50px;
   }
 
-  .about-contain{
+  .about-contain {
     height: fit-content;
     margin: 0;
     margin-bottom: 30px;
@@ -605,48 +608,71 @@ main {
     margin: auto;
   }
 
-  .about a{
-    width: 200px;
+  .about a {
+    width: fit-content;
   }
 
-  .about-conn{
+  .about-conn {
     width: 90%;
     margin: auto;
   }
 
-  .about .about-item{
-    width: 177px;
-    height: 210px;
+  .about .about-item {
+    width: 165px;
+    height: 170px;
   }
 
-  .about .about-item p{
+  .about .about-item p {
     font-size: 13px;
     width: fit-content;
     margin: auto;
     text-align: center;
-    margin-top: 17px;
+    margin-top: 10px;
   }
 
-  .sosial{
+  .sosial {
     margin-top: 60px;
     height: fit-content;
     margin: 0%;
   }
 
-  .sosial p{
+  .sosial p {
     text-align: center;
   }
 
-  .sosial span{
+  .sosial span {
     justify-content: center;
   }
 
-  .sosial .sosial-item{
+  .sosial .sosial-item {
     width: 200px;
     height: 40px;
   }
 
-  .sosial .sosial-item img{
+  .sosial .sosial-item img {
     width: 30px;
+  }
+
+  .foot {
+    height: 40px;
+  }
+
+  .foot .foot-item {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot .foot-item img {
+    width: 20px;
+  }
+
+  .foot .foot-item p {
+    font-size: 12px;
+  }
+
+  .foot .footbot {
+    font-size: 10px;
+    text-align: end;
+    margin-left: 70px;
   }
 }
