@@ -305,7 +305,18 @@ main {
   margin-top: 112px;
 }
 
-.about-con {
+.about-con{
+  width: fit-content;
+}
+
+.about-con a{
+  width:fit-content;
+  padding: 0;
+  /* margin: 0; */
+}
+
+.about-conn {
+  width: fit-content;
   align-items: center;
   justify-content: center;
 }
@@ -454,6 +465,10 @@ main {
     width: 90%;
   }
 
+  .star span{
+    width: fit-content;
+  }
+
   .service{
     height: fit-content;
     padding-top: 40px;
@@ -471,7 +486,6 @@ main {
   }
 
   .service-item .srv{
-    /* background-color: red; */
     width: fit-content;
     margin: auto;
     margin-bottom: 20px;
@@ -507,5 +521,74 @@ main {
 
   .porto-item img{
     width: 50%;
+  }
+
+  .about{
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+
+  .about button{
+    width: 94px;
+    height: 25px;
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .about-contain{
+    height: fit-content;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .about .about-con {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .about a{
+    width: 200px;
+  }
+
+  .about-conn{
+    width: 90%;
+    margin: auto;
+  }
+
+  .about .about-item{
+    width: 177px;
+    height: 210px;
+  }
+
+  .about .about-item p{
+    font-size: 13px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 17px;
+  }
+
+  .sosial{
+    margin-top: 60px;
+    height: fit-content;
+    margin: 0%;
+  }
+
+  .sosial p{
+    text-align: center;
+  }
+
+  .sosial span{
+    justify-content: center;
+  }
+
+  .sosial .sosial-item{
+    width: 200px;
+    height: 40px;
+  }
+
+  .sosial .sosial-item img{
+    width: 30px;
   }
 }
