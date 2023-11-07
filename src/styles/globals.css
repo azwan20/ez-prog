@@ -3,7 +3,7 @@
   --secondary: #3C5BA9;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -51,13 +51,13 @@ nav {
   position: fixed;
 }
 
-nav img{
+nav img {
   width: 149px;
   height: 42px;
   margin-left: 19px;
 }
 
-nav .logonav{
+nav .logonav {
   height: 30px;
   width: 95px;
 }
@@ -97,7 +97,7 @@ main {
   /* height: 2505px; */
 }
 
-.umum{
+.umum {
   /* background: url("/bg-land.svg"), linear-gradient(177deg, var(--primary) 2.65%, rgba(43, 179, 232, 0.80) 95.36%);
   background-size: cover;  */
   background: url("/home-bg.svg");
@@ -107,13 +107,13 @@ main {
   height: 100vh;
 }
 
-.umum .rec{
+.umum .rec {
   justify-content: center;
   align-items: baseline;
   margin-top: 10px;
 }
 
-.umum .bulat{
+.umum .bulat {
   width: 50px;
   height: 50px;
   text-align: center;
@@ -160,12 +160,12 @@ main {
   border-radius: 20px;
 }
 
-.contain .btn1{
+.contain .btn1 {
   background-color: #FFF;
   color: #2CB3E8;
 }
 
-.starServ{
+.starServ {
   width: 100%;
   height: 1364px;
   background: url("/star-bg.svg");
@@ -173,7 +173,7 @@ main {
   background-position: center;
 }
 
-.starServ button{
+.starServ button {
   margin: 144px 0 5px 13px;
   width: 192px;
   height: 51px;
@@ -183,31 +183,31 @@ main {
   background-color: #2CB3E8;
 }
 
-.star{
+.star {
   justify-content: space-between;
   margin: auto 31px;
   align-items: center;
 }
 
-.starServ span{
+.starServ span {
   align-items: center;
   width: 513px;
   height: 332px;
   font-size: 21px;
 }
 
-.starServ span p{
+.starServ span p {
   margin-bottom: 10px;
 }
 
-.service{
+.service {
   width: 100%;
   height: 382px;
   background-color: var(--primary);
   margin-top: 60px;
 }
 
-.service span{
+.service span {
   width: 90%;
   margin: auto;
   display: flex;
@@ -215,7 +215,7 @@ main {
   align-items: center;
 }
 
-.service .bg{
+.service .bg {
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -224,11 +224,11 @@ main {
   align-items: center;
 }
 
-.bg img{
+.bg img {
   margin-bottom: 30px;
 }
 
-.service-item p{
+.service-item p {
   text-align: center;
   color: #fff;
   font-size: 19px;
@@ -236,13 +236,13 @@ main {
   margin-top: 21px;
 }
 
-.porto{
+.porto {
   width: 100%;
   height: 832px;
   background: url("/porto-bg.svg");
 }
 
-.porto button{
+.porto button {
   width: 192px;
   height: 51px;
   border-radius: 30px;
@@ -254,14 +254,15 @@ main {
   font-weight: 500px;
 }
 
-.porto-item{
+.porto-item {
   width: 100%;
   height: 402px;
   background-color: transparent;
   justify-content: center;
+  margin: auto;
 }
 
-.porto-item span{
+.porto-item span {
   display: flex;
   width: 534px;
   height: 191px;
@@ -274,23 +275,23 @@ main {
   padding: 22px;
 }
 
-.porto-item span div{
+.porto-item span div {
   margin: auto;
 }
 
-.porto-item span h1{
+.porto-item span h1 {
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.about{
+.about {
   width: 100%;
   height: 757px;
   background-color: var(--primary);
 }
 
-.about button{
+.about button {
   width: 192px;
   height: 51px;
   border-radius: 20px;
@@ -304,12 +305,12 @@ main {
   margin-top: 112px;
 }
 
-.about-con{
+.about-con {
   align-items: center;
   justify-content: center;
 }
 
-.about-contain{
+.about-contain {
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -319,8 +320,9 @@ main {
   margin-top: 94px;
 }
 
-.about-item{
+.about-item {
   width: 177px;
+  /* width: 100%; */
   height: 201px;
   border-radius: 10px;
   background-color: var(--primary);
@@ -328,28 +330,28 @@ main {
   align-items: center;
 }
 
-.about-item img{
+.about-item img {
   margin: auto;
   margin-bottom: 8px;
 }
 
-.about-item p{
+.about-item p {
   color: #FFF;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
 }
 
-.sosial{
+.sosial {
   text-align: end;
   margin: 50px 29px 28px 0;
 }
 
-.sosial span{
+.sosial span {
   justify-content: end;
 }
 
-.sosial-item{
+.sosial-item {
   justify-content: end;
   width: 234px;
   height: 60px;
@@ -357,24 +359,24 @@ main {
   border-radius: 30px;
 }
 
-.sosial-item img{
+.sosial-item img {
   width: 38px;
   height: 38px;
   margin: auto;
 }
 
-.sosial p{
+.sosial p {
   margin-bottom: 10px;
   color: #FFF;
   font-size: 19px;
   font-weight: 700;
 }
 
-.about-contain p{
+.about-contain p {
   /* text-align: end; */
 }
 
-.foot{
+.foot {
   background-color: black;
   justify-content: space-between;
   align-items: center;
@@ -383,20 +385,127 @@ main {
   padding: 0 34px;
 }
 
-.foot-item p{
+.foot-item p {
   font-size: 20px;
   color: #fff;
   margin-left: 10px;
 }
 
-.foot img{
+.foot img {
   fill: #fff;
   height: 30px;
   width: 30px;
 }
 
-.footbot{
+.footbot {
   font-size: 11px;
   color: #FFF;
   margin: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .contain h1 {
+    font-size: 30px;
+  }
+
+  .contain span {
+    display: block;
+    flex-direction: column;
+  }
+
+  .contain span button {
+    margin: auto;
+    width: 171px;
+    height: 53px;
+    margin-bottom: 11px;
+  }
+
+  .starServ {
+    height: fit-content;
+  }
+
+  .starServ button {
+    width: 94px;
+    height: 25px;
+    font-size: 14px;
+  }
+  
+  .star {
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  
+  .star p {
+    font-size: 14px;
+    margin: auto;
+    width: 70%;
+  }
+
+  .star img {
+    margin: auto;
+    width: 90%;
+  }
+
+  .service{
+    height: fit-content;
+    padding-top: 40px;
+  }
+
+  .service span{
+    margin: auto;
+    height: fit-content;
+  }
+  
+  .service .bg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .service-item .srv{
+    /* background-color: red; */
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .porto button{
+    width: 94px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .porto .porto-item{
+    justify-content: center;
+    height: fit-content;
+    margin: auto;
+  }
+  
+  .porto span{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .porto-item span{
+    font-size: 9px;
+  }
+  .porto-item span h1{
+    font-size: 13px;
+  }
+
+  .porto-item img{
+    width: 50%;
+  }
 }
