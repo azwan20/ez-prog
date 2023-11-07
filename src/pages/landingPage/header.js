@@ -18,10 +18,10 @@ export default function Header() {
                         <span class="material-symbols-outlined">menu</span>
                     </button>
                     <div className={`links ${menuVisible ? "active" : ""}`}>
-                        <Link href="">Home</Link>
-                        <Link href="">Service</Link>
-                        <Link href="">Portofolio</Link>
-                        <Link href="">About</Link>
+                        <Link href="#home">Home</Link>
+                        <Link href="#service">Service</Link>
+                        <Link href="#portofolio">Portofolio</Link>
+                        <Link href="#about">About</Link>
                     </div>
                 </div>
             </nav>
