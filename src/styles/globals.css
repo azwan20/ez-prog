@@ -421,6 +421,10 @@ main {
   border-radius: 30px;
 }
 
+.sosial-item a{
+  margin: auto;
+}
+
 .sosial-item img {
   width: 38px;
   height: 38px;
@@ -647,6 +651,10 @@ main {
   .sosial .sosial-item {
     width: 200px;
     height: 40px;
+  }
+
+  .sosial-item a{
+    margin: auto;
   }
 
   .sosial .sosial-item img {
