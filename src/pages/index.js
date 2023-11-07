@@ -3,13 +3,27 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const delay = 5000;
+
+    const timeout = setTimeout(() => {
+      router.push('/landingPage');
+    }, delay);
+
+    return () => {
+      clearTimeout(timeout);
+    }
+  }, [router]);
   return (
     <>
-      <Link href="/landingPage">
         <div className='utama'>
           <div className='utama1 d-flex'>
             <svg className='svg1' xmlns="http://www.w3.org/2000/svg" width="105" height="105" viewBox="0 0 105 105" fill="none">
@@ -48,7 +62,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </Link>
     </>
   )
 }
