@@ -10,7 +10,7 @@ export default function Landingpage() {
     return (
         <>
             <main>
-                <article className="umum">
+                <article className="umum" id="home">
                     <Header />
                     <div className="conten">
                         <div className="contain">
@@ -37,7 +37,7 @@ export default function Landingpage() {
                         </span>
                         <img src="star.svg" />
                     </div>
-                    <button>
+                    <button id="service">
                         Service
                     </button>
                     <div className="service d-flex">
@@ -56,7 +56,7 @@ export default function Landingpage() {
                     </div>
                 </article>
 
-                <article className="porto">
+                <article className="porto" id="portofolio">
                     <button>
                         Portofolio
                     </button>
@@ -75,7 +75,7 @@ export default function Landingpage() {
                     {/* </marquee> */}
                 </article>
 
-                <article className="about">
+                <article className="about" id="about">
                     <button>
                         About
                     </button>
@@ -97,7 +97,7 @@ export default function Landingpage() {
                         <p>Media Sosial</p>
                         <span className="d-flex">
                             <div className=" d-flex sosial-item">
-                                <img src="ig.svg" />
+                                <Link href="https://www.instagram.com/ezprog_/"> <img src="ig.svg" /> </Link>
                                 <img src="fb.svg" />
                                 <img src="ytb.svg" />
                                 <img src="twit.svg" />
