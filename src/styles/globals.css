@@ -7,6 +7,55 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 24px;
+  height: 24px;
+  color: #FFF;
+  fill: white;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0 130px;
+  font-size: 17px;
+  font-weight: 500px;
+  width: 120px;
+  height: 32px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+/* Tampilkan menu pada tampilan mobile */
+.links.active {
+  display: block;
+  position: absolute;
+  background: var(--primary);
+  backdrop-filter: blur(3px);
+  top: 60px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+
+
 .utama {
   display: flex;
   width: 100%;
@@ -419,6 +468,15 @@ main {
 
 
 @media only screen and (max-width: 480px) {
+
+  .burger {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+
   .contain h1 {
     font-size: 30px;
   }
