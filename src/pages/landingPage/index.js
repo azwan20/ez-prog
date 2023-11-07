@@ -80,16 +80,18 @@ export default function Landingpage() {
                         About
                     </button>
                     <div className=" d-flex about-contain">
-                        {[0, 1, 2, 3, 4, 5].map((index) => (
-                            <Link href="https://s.id/Info_Selengkapnya">
-                                <div className="d-flex about-con">
-                                    <span className="about-item">
-                                        <img src={aboutsvg[index]} />
-                                        <p>{aboutItem[index]}</p>
-                                    </span>
-                                </div>
-                            </Link>
-                        ))}
+                        <span className="about-con row">
+                            {[0, 1, 2, 3, 4, 5].map((index) => (
+                                <Link href="https://s.id/Info_Selengkapnya" className="">
+                                    <div className="d-flex about-conn col-lg-2 col-sm-6">
+                                        <span className="about-item">
+                                            <img src={aboutsvg[index]} />
+                                            <p>{aboutItem[index]}</p>
+                                        </span>
+                                    </div>
+                                </Link>
+                            ))}
+                        </span>
                     </div>
                     <div className="sosial">
                         <p>Media Sosial</p>
