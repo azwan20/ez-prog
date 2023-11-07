@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
 
@@ -40,19 +41,17 @@ export default function Landingpage() {
                         Service
                     </button>
                     <div className="service d-flex">
-                        <span>
+                        <span className="d-flex service-item row">
                             {[0, 1, 2, 3, 4].map((index) => (
-                                <div key={index} className="service-item">
-                                    <div className="bg d-flex">
-                                        <img src={svg[index]} />
+                                <div className="col-lg-2 col-sm-4 srv">
+                                    <div key={index}>
+                                        <div className="bg d-flex">
+                                            <img src={svg[index]} />
+                                        </div>
+                                        <p> {serviceItem[index]} </p>
                                     </div>
-                                    <p> {serviceItem[index]} </p>
                                 </div>
                             ))}
-                            {/* <p>Web App</p>
-                            <p>Machine Learning</p>
-                            <p>UI/UX</p>
-                            <p>Design</p> */}
                         </span>
                     </div>
                 </article>
@@ -82,12 +81,14 @@ export default function Landingpage() {
                     </button>
                     <div className=" d-flex about-contain">
                         {[0, 1, 2, 3, 4, 5].map((index) => (
-                            <div className="d-flex about-con">
-                                <span className="about-item">
-                                    <img src={aboutsvg[index]} />
-                                    <p>{aboutItem[index]}</p>
-                                </span>
-                            </div>
+                            <Link href="https://s.id/Info_Selengkapnya">
+                                <div className="d-flex about-con">
+                                    <span className="about-item">
+                                        <img src={aboutsvg[index]} />
+                                        <p>{aboutItem[index]}</p>
+                                    </span>
+                                </div>
+                            </Link>
                         ))}
                     </div>
                     <div className="sosial">
