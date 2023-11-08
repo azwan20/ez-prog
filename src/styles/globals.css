@@ -149,8 +149,8 @@ main {
 }
 
 .umum {
-  /* background: url("/bg-land.svg"), linear-gradient(177deg, var(--primary) 2.65%, rgba(43, 179, 232, 0.80) 95.36%);
-  background-size: cover;  */
+  /* background: url("/bg-land.svg"), linear-gradient(177deg, var(--primary) 2.65%, rgba(43, 179, 232, 0.80) 95.36%); */
+  /* background-size: cover;  */
   background: url("/home-bg.svg");
   background-repeat: no-repeat;
   /* background-position: center center; */
@@ -481,6 +481,18 @@ main {
 
   .links {
     display: none;
+  }
+
+  .utama{
+    background-size: cover;
+  }
+
+  .utama1 .svg1{
+    width: 70px;
+  }
+
+  .utama1 .svgdiv2{
+    width: 220px;
   }
 
   .contain h1 {
