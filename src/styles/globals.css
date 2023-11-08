@@ -156,6 +156,7 @@ main {
   /* background-position: center center; */
   width: 100%;
   height: 100vh;
+  background-size: cover;
 }
 
 .umum .rec {
@@ -471,10 +472,79 @@ main {
 
 
 
+@media only screen and (max-width: 835px) {
+  .utama{
+    background-size: cover;
+  }
+
+  .umum .bulat{
+    margin-top: 80px;
+  }
+
+  .starServ{
+    height: fit-content;
+  }
+
+  .star{
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .star p{
+    font-size: 20px;
+  }
+
+  .star img{
+    width: 50%;
+  }
+
+  .service{
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-item{
+    margin-top: 0;
+    margin: auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service .srv{
+    height: fit-content;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .porto{
+    height: fit-content;
+  }
+
+  .porto-item{
+    height: fit-content;
+  }
+
+  .about{
+    height: max-content;
+  }
+
+  .about-contain{
+    height: fit-content;
+  }
+
+}
+
+
+
 
 
 @media only screen and (max-width: 516px) {
-
+  
   .burger {
     display: block;
   }
@@ -493,6 +563,12 @@ main {
 
   .utama1 .svgdiv2{
     width: 220px;
+  }
+
+  .umum .bulat{
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
   }
 
   .contain h1 {
