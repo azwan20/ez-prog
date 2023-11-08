@@ -16,8 +16,10 @@ export default function Landingpage() {
                         <div className="contain">
                             <h1>Solusi Kreatif, dan Produktif Gen-Z</h1>
                             <span className="d-flex">
-                                <button className="btn1" >Oder Now</button>
-                                <button>Show More</button>
+                                <button className="btn1" aria-label="Chat on WhatsApp" href="https://wa.me/+62 852-4089-9096">
+                                    <Link aria-label="Chat on WhatsApp" href="https://wa.me/+6285240899096">Oder Now</Link>
+                                </button>
+                                <button><Link href="#service">Show More</Link></button>
                             </span>
                         </div>
                     </div>
