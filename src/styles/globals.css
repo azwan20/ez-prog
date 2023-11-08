@@ -45,9 +45,10 @@ body {
 .links.active {
   display: block;
   position: absolute;
-  background: var(--primary);
-  backdrop-filter: blur(3px);
-  top: 60px;
+  /* background: var(--primary); */
+  background: rgba(48, 179, 231, 0.80);
+  backdrop-filter: blur(2px);
+  top: 80px;
   left: 0;
   right: 0;
   flex-direction: column;
@@ -308,7 +309,7 @@ main {
 
 .porto-item {
   width: 100%;
-  height: 402px;
+  /* height: 402px; */
   background-color: transparent;
   justify-content: center;
   margin: auto;
@@ -335,6 +336,23 @@ main {
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+.porto-item .pName{
+  text-align: center;
+  margin: 30px auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.pName h2{
+  background-color: var(--primary);
+  align-items: center;
+  width: fit-content;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
 }
 
 .about {
