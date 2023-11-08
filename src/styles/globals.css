@@ -547,6 +547,16 @@ main {
     height: fit-content;
   }
 
+  .pName h2{
+    background-color: var(--primary);
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 20px;
+  }
+
   .about{
     height: max-content;
   }
@@ -692,6 +702,16 @@ main {
 
   .porto-item img {
     width: 50%;
+  }
+  
+  .pName h2{
+    background-color: var(--primary);
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 20px;
   }
 
   .about {
