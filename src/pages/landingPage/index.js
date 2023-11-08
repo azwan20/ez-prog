@@ -5,8 +5,28 @@ import Header from "./header";
 export default function Landingpage() {
     const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg"];
     const serviceItem = ["Mobile App", "Web App", "Machine Learning", "UI/UX", "Design"];
+    const h1porto = [
+        ["PuzDent", "BEMSAPP", "Attance", "ROIMIF"],
+        ["Starbucks Clone", "Monitoring", "Portofolio", "MSI"]
+    ];
+    const prgporto = [
+        ["Game ini merupakan game puzzle berbasis mobile yang dapat dimainkan disistem operasi android",
+            "Aplikasi ini membantu memonitoring pengiriman sampah daur ulang",
+            "Aplikasi ini membantu pengguna mendeteksi jenis jerawatnya",
+            "Aplikasi ini merupakan pemesanan kopi lokal untuk membantu pemesanan instan"],
+        [
+            "Aplikasi ini adalah clone dari Starbucks Web pada sisi Front-End",
+            "Aplikasi untuk memonitoring nilai, absesnsi, dan hal akademis  pada FIKOM",
+            "Aplikasi menampilkan portofolio pribadi menggunakan React.js",
+            "Aplikasi E-commarce untuk pemasaran produk-produk dari MSI"
+        ]
+    ];
+    const portosvg = [
+        ["porto.svg", "bemsapp.svg", "attacne.svg", "roimif.svg"],
+        ["starbucks.svg", "monitoring.svg", "project.svg", "msi.svg"]
+    ];
     const aboutsvg = ["Kontrak-kerja.svg", "Design-about.svg", "website.svg", "ml-about.svg", "Mobile-about.svg", "Proposal-Skripsi.svg"];
-    const aboutItem = ["Kontrak Kerja", "Harga Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"]
+    const aboutItem = ["Kontrak Kerja", "Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"]
     return (
         <>
             <main>
@@ -44,8 +64,8 @@ export default function Landingpage() {
                     </button>
                     <div className="service d-flex">
                         <span className="d-flex service-item row">
-                            {[0, 1, 2, 3, 4].map((index) => (
-                                <div className="col-lg-2 col-sm-4 srv">
+                            {[0, 1, 2, 3].map((index) => (
+                                <div className="col-lg-2 col-md-4 col-sm-4 srv">
                                     <div key={index}>
                                         <div className="bg d-flex">
                                             <img src={svg[index]} />
@@ -62,19 +82,58 @@ export default function Landingpage() {
                     <button>
                         Portofolio
                     </button>
-                    {/* <marquee className=""> */}
-                    <div className="d-flex porto-item row">
-                        {[0, 1, 2, 3].map((index) => (
-                            <span>
-                                <div>
-                                    <h1>PuzDent</h1>
-                                    <p>Game ini merupakan game puzzle berbasis mobile yang dapat dimainkan disistem operasi android</p>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div className="d-flex porto-item row">
+                                    {[0, 1, 2, 3].map((index) => (
+                                        <span>
+                                            <div>
+                                                <h1>{h1porto[0][index]}</h1>
+                                                <p>{prgporto[0][index]}</p>
+                                            </div>
+                                            <img src={portosvg[0][index]} />
+                                        </span>
+                                    ))}
+                                    <div className="d-flex pName">
+                                        <h2>Mobile Application</h2>
+                                    </div>
                                 </div>
-                                <img src="porto.svg" />
-                            </span>
-                        ))}
+                            </div>
+                            <div class="carousel-item">
+                                <div className="d-flex porto-item row">
+                                    {[0, 1, 2, 3].map((index) => (
+                                        <span>
+                                            <div>
+                                                <h1>{h1porto[1][index]}</h1>
+                                                <p>{prgporto[1][index]}</p>
+                                            </div>
+                                            <img src={portosvg[1][index]} />
+                                        </span>
+                                    ))}
+                                    <div className="d-flex pName">
+                                        <h2>Web Application</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div className="d-flex porto-item row">
+                                    {[0, 1, 2, 3].map((index) => (
+                                        <span>
+                                            <div>
+                                                <h1>{h1porto[0][index]}</h1>
+                                                <p>{prgporto[0][index]}</p>
+                                            </div>
+                                            <img src={portosvg[1][index]} />
+                                        </span>
+                                    ))}
+                                    <div className="d-flex pName">
+                                        <h2>Machine Learning</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    {/* </marquee> */}
                 </article>
 
                 <article className="about" id="about">
