@@ -24,7 +24,7 @@ export default function Document() {
         <title>EZprog</title>
         {/* <img src='/logo.svg' /> */}
         <link rel="icon" href="/logo-warna.svg" />
-        <meta name="description" content="Place the meta description text here." />
+        <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
       </Head>
       <body>
         <Main />
