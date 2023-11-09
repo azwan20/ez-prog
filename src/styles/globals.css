@@ -377,6 +377,7 @@ main {
 
 .about-con {
   width: 100%;
+  justify-content: center;
 }
 
 .about-con a {
@@ -389,6 +390,7 @@ main {
   width: fit-content;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .about-contain {
