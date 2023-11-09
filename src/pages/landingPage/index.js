@@ -64,7 +64,7 @@ export default function Landingpage() {
                     </button>
                     <div className="service d-flex">
                         <span className="d-flex service-item row">
-                            {[0, 1, 2, 3].map((index) => (
+                            {[0, 1, 2, 3, 4].map((index) => (
                                 <div className="col-lg-2 col-md-4 col-sm-4 srv">
                                     <div key={index}>
                                         <div className="bg d-flex">
