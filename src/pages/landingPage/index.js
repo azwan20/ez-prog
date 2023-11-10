@@ -1,10 +1,14 @@
 import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function Landingpage() {
-    const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg"];
-    const serviceItem = ["Mobile App", "Web App", "Machine Learning", "UI/UX", "Design"];
+    const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg", "proposalskripsi.svg"];
+    const serviceItem = ["Mobile App", "Web App", "Machine Learning", "UI/UX", "Design", "Proposal/Skripsi"];
     const h1porto = [
         ["PuzDent", "BEMSAPP", "Attance", "ROIMIF"],
         ["Starbucks Clone", "Monitoring", "Portofolio", "MSI"]
@@ -52,7 +56,7 @@ export default function Landingpage() {
                     <button>
                         Start
                     </button>
-                    <div className="d-flex star">
+                    <div className="d-flex star" data-aos="fade-right" data-aos-duration='2000'>
                         <span>
                             <p>Halo! Kami adalah EZPROG yang menyediakan jasa pembuatan aplikasi, proposal, skripsi, desain grafis, dan lain-lain. Kami berkomitmen untuk memberikan layanan terbaik dengan harga yang terjangkau dan berkualitas.</p>
                             <p>Kami melayani berbagai jenis pelanggan, mulai dari perorangan hingga perusahaan. Kami juga memiliki tim yang berpengalaman dan profesional di bidangnya.</p>
@@ -64,9 +68,9 @@ export default function Landingpage() {
                     </button>
                     <div className="service d-flex">
                         <span className="d-flex service-item row">
-                            {[0, 1, 2, 3, 4].map((index) => (
+                            {[0, 1, 2, 3, 4, 5].map((index) => (
                                 <div className="col-lg-2 col-md-4 col-sm-4 srv">
-                                    <div key={index}>
+                                    <div className="serv" key={index} data-aos="flip-right" data-aos-duration='2000'>
                                         <div className="bg d-flex">
                                             <img src={svg[index]} />
                                         </div>
@@ -145,7 +149,7 @@ export default function Landingpage() {
                             {[0, 1, 2, 3, 4, 5].map((index) => (
                                 <Link href="https://s.id/Info_Selengkapnya" className="">
                                     <div className="d-flex about-conn col-lg-2 col-sm-6">
-                                        <span className="about-item">
+                                        <span className="about-item" data-aos="zoom-in-up"  data-aos-duration='2000'>
                                             <img src={aboutsvg[index]} />
                                             <p>{aboutItem[index]}</p>
                                         </span>
