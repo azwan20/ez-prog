@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-
 export default function Document() {
   return (
     <Html lang="en">
@@ -25,10 +24,19 @@ export default function Document() {
         {/* <img src='/logo.svg' /> */}
         <link rel="icon" href="/logo-warna.svg" />
         <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
+
+        {/* AOS */}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <body>
         <Main />
         <NextScript />
+
+        {/* AOS */}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </body>
     </Html>
   )
