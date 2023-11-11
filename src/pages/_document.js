@@ -20,18 +20,24 @@ export default function Document() {
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-      {/* AOS */}
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Head>
         <title>EZprog</title>
         {/* <img src='/logo.svg' /> */}
         <link rel="icon" href="/logo-warna.svg" />
         <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
+
+        {/* Aos */}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
       </Head>
       <body>
         <Main />
         <NextScript />
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </body>
     </Html>
   )
