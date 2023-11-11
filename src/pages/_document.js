@@ -26,7 +26,7 @@ export default function Document() {
         <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
 
         {/* AOS */}
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        {/* <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
       </Head>
       <body>
         <Main />
