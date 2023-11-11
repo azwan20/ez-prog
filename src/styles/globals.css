@@ -101,6 +101,7 @@ nav {
   border-radius: 0px 0px 30px 30px;
   backdrop-filter: blur(3px);
   position: fixed;
+  z-index: 1000; /* Menyimpan navbar di atas elemen lain, seperti artikel */
 }
 
 nav img {
@@ -213,6 +214,10 @@ main {
 .contain .btn1 {
   background-color: #FFF;
   color: #2CB3E8;
+}
+
+.contain button:hover{
+  transform: scale(1.05);
 }
 
 .starServ {
@@ -398,8 +403,8 @@ main {
   transition: transform 0.2s;
 }
 
-.about-conn .about-item:hover{
-  transform: scale(1.05);
+.about-conn:hover{
+  transform: scale(1.2);
 }
 
 .about-contain {
@@ -459,6 +464,10 @@ main {
   width: 38px;
   height: 38px;
   margin: auto;
+}
+
+.sosial-item img:hover{
+  transform: scale(1.2);
 }
 
 .sosial p {
@@ -577,9 +586,6 @@ main {
   }
 
 }
-
-
-
 
 
 @media only screen and (max-width: 516px) {
