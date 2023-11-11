@@ -12,7 +12,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    const delay = 1000;
+    const delay = 3000;
 
     const timeout = setTimeout(() => {
       router.push('/landingPage');
