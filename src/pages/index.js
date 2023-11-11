@@ -5,6 +5,8 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,14 @@ export default function Home() {
       clearTimeout(timeout);
     }
   }, [router]);
+
+  useEffect(() => {
+    // Inisialisasi AOS pada komponen did mount
+    AOS.init({
+      // Anda dapat menambahkan konfigurasi AOS di sini jika diperlukan
+      duration: 1000, // Contoh: durasi animasi 1 detik
+    });
+  }, []); // []
   return (
     <>
       <div className='utama'>
