@@ -1,9 +1,6 @@
 import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
-// import React, { useEffect } from 'react';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 export default function Landingpage() {
     const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg", "proposalskripsi.svg"];
@@ -30,9 +27,6 @@ export default function Landingpage() {
     ];
     const aboutsvg = ["Kontrak-kerja.svg", "Design-about.svg", "website.svg", "ml-about.svg", "Mobile-about.svg", "Proposal-Skripsi.svg"];
     const aboutItem = ["Kontrak Kerja", "Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"];
-    // useEffect(() => {
-    //     AOS.init();
-    // }, []);
     return (
         <>
             <main>
