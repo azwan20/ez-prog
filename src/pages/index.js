@@ -5,10 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+
 
 const inter = Inter({ subsets: ['latin'] })
 
