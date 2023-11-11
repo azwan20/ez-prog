@@ -52,7 +52,7 @@ export default function Landingpage() {
                     <button>
                         Start
                     </button>
-                    <div className="d-flex star" data-aos="fade-right" data-aos-duration='2000'>
+                    <div className="d-flex star" data-aos="fade-right" data-aos-duration='2500'>
                         <span>
                             <p>Halo! Kami adalah EZPROG yang menyediakan jasa pembuatan aplikasi, proposal, skripsi, desain grafis, dan lain-lain. Kami berkomitmen untuk memberikan layanan terbaik dengan harga yang terjangkau dan berkualitas.</p>
                             <p>Kami melayani berbagai jenis pelanggan, mulai dari perorangan hingga perusahaan. Kami juga memiliki tim yang berpengalaman dan profesional di bidangnya.</p>
@@ -157,8 +157,8 @@ export default function Landingpage() {
                     <div className="sosial">
                         <p>Media Sosial</p>
                         <span className="d-flex">
-                            <div className=" d-flex sosial-item">
-                                <Link href="https://www.instagram.com/ezprog_/"> <img src="ig.svg" /> </Link>
+                            <div className=" d-flex sosial-item" >
+                                <Link href="https://www.instagram.com/ezprog_/"> <img src="ig.svg"/> </Link>
                                 <img src="fb.svg" />
                                 <img src="ytb.svg" />
                                 <img src="twit.svg" />
