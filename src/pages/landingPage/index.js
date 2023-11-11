@@ -1,9 +1,8 @@
 import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
-import AOS from 'aos';
+// import AOS from 'aos';
 // import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
 // AOS.init();
 
 export default function Landingpage() {
