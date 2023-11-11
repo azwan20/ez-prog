@@ -4,7 +4,7 @@ import Header from "./header";
 import AOS from 'aos';
 // import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
+// AOS.init();
 
 export default function Landingpage() {
     const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg", "proposalskripsi.svg"];
