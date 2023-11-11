@@ -4,9 +4,9 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useEffect } from 'react'
-import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,12 +26,8 @@ export default function Home() {
   }, [router]);
 
   useEffect(() => {
-    // Inisialisasi AOS pada komponen did mount
-    AOS.init({
-      // Anda dapat menambahkan konfigurasi AOS di sini jika diperlukan
-      duration: 1000, // Contoh: durasi animasi 1 detik
-    });
-  }, []); // []
+    AOS.init();
+  }, []);
   return (
     <>
       <div className='utama'>
