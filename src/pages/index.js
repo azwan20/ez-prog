@@ -4,9 +4,6 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-// import React, { useEffect } from 'react';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,10 +21,6 @@ export default function Home() {
       clearTimeout(timeout);
     }
   }, [router]);
-
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
   return (
     <>
       <div className='utama'>
