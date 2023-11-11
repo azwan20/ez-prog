@@ -1,10 +1,14 @@
 import '@/styles/globals.css';
-import { useEffect } from 'react';
+import { React, useEffect } from 'react'
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init(); // Inisialisasi AOS
-}, []);
+    AOS.init({
+      duration: 800,
+      once: false,
+    })
+  }, [])
   return <Component {...pageProps} />
 }
