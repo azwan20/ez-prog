@@ -26,18 +26,11 @@ export default function Document() {
         <link rel="icon" href="/logo-warna.svg" />
         <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
 
-        {/* Aos */}
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
       </Head>
       <body>
         <Main />
         <NextScript />
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
       </body>
     </Html>
   )
