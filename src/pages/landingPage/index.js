@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'; // You can also use <link> for styles
-// AOS.init();
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Landingpage() {
     const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg", "proposalskripsi.svg"];
@@ -29,7 +29,11 @@ export default function Landingpage() {
         ["starbucks.svg", "monitoring.svg", "project.svg", "msi.svg"]
     ];
     const aboutsvg = ["Kontrak-kerja.svg", "Design-about.svg", "website.svg", "ml-about.svg", "Mobile-about.svg", "Proposal-Skripsi.svg"];
-    const aboutItem = ["Kontrak Kerja", "Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"]
+    const aboutItem = ["Kontrak Kerja", "Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"];
+
+    useEffect(() => {
+        AOS.init(); // Inisialisasi AOS
+    }, []);
     return (
         <>
             <main>
@@ -148,7 +152,7 @@ export default function Landingpage() {
                             {[0, 1, 2, 3, 4, 5].map((index) => (
                                 <Link href="https://s.id/Info_Selengkapnya" className="">
                                     <div className="d-flex about-conn col-lg-2 col-sm-6">
-                                        <span className="about-item" data-aos="zoom-in-up"  data-aos-duration='2000'>
+                                        <span className="about-item" data-aos="zoom-in-up" data-aos-duration='2000'>
                                             <img src={aboutsvg[index]} />
                                             <p>{aboutItem[index]}</p>
                                         </span>
