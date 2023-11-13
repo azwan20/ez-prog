@@ -165,7 +165,7 @@ export default function Landingpage() {
                         <p>Media Sosial</p>
                         <span className="d-flex">
                             <div className=" d-flex sosial-item" >
-                                <Link href="https://www.instagram.com/ezprog_/"> <img src="ig.svg"/> </Link>
+                                <Link href="https://www.instagram.com/ezprog_/" target="_blank"> <img src="ig.svg"/> </Link>
                                 <img src="fb.svg" />
                                 <img src="ytb.svg" />
                                 <img src="twit.svg" />
