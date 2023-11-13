@@ -21,7 +21,7 @@ export default function Header() {
                         <Link href="#home">Home</Link>
                         <Link href="#service">Service</Link>
                         <Link href="#portofolio">Portofolio</Link>
-                        <Link href="#about">Price List</Link>
+                        <Link href="#priceList">Price List</Link>
                     </div>
                 </div>
             </nav>
