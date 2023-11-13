@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
+import { useState } from "react";
 
 export default function Landingpage() {
     const svg = ["mobile.svg", "web.svg", "ml.svg", "ui.svg", "design.svg", "proposalskripsi.svg"];
@@ -27,6 +28,12 @@ export default function Landingpage() {
     ];
     const aboutsvg = ["Kontrak-kerja.svg", "Design-about.svg", "website.svg", "ml-about.svg", "Mobile-about.svg", "Proposal-Skripsi.svg"];
     const aboutItem = ["Kontrak Kerja", "Design", "Web Application", "Machine Learning", "Mobile Application", "Proposal/Skripsi"];
+    const linkAbout = ["https://docs.google.com/document/d/1EZ7dgzs29rOXbe7uYfjkskOAi1IVL5PW/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1kBKPhQTmfKIw6MKyUk4xrC5IymwEZqUv/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1dX2O2SnY4ltDaAA9kyopmuXQVtbTf5h_/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/15V2uTkpevx3WLSFPYa6ywIzVZBFIx8_p/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1vjsUDNs2BwnIhsmp4kWdPZ3kdZtRjNGW/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1h_ldb6Lj5XsBgmm5ASKIrE9dWlShjqNy/edit?usp=drive_link&ouid=105083334655589666861&rtpof=true&sd=true"];
     return (
         <>
             <main>
@@ -37,7 +44,7 @@ export default function Landingpage() {
                             <h1>Solusi Kreatif, dan Produktif Gen-Z</h1>
                             <span className="d-flex">
                                 <button className="btn1" aria-label="Chat on WhatsApp" href="https://wa.me/+62 852-4089-9096">
-                                    <Link aria-label="Chat on WhatsApp" href="https://wa.me/+6285240899096">Oder Now</Link>
+                                    <Link aria-label="Chat on WhatsApp" href="https://wa.me/+6285240899096" target="_blank">Oder Now</Link>
                                 </button>
                                 <button><Link href="#service">Show More</Link></button>
                             </span>
@@ -138,12 +145,12 @@ export default function Landingpage() {
 
                 <article className="about" id="about">
                     <button>
-                        About
+                        Price List
                     </button>
                     <div className=" d-flex about-contain">
                         <span className="about-con row">
                             {[0, 1, 2, 3, 4, 5].map((index) => (
-                                <Link href="https://s.id/Info_Selengkapnya" className="">
+                                <Link href={linkAbout[index]} target="_blank" className="">
                                     <div className="d-flex about-conn col-lg-2 col-sm-6">
                                         <span className="about-item" data-aos="zoom-in-up" data-aos-duration='2000'>
                                             <img src={aboutsvg[index]} />
