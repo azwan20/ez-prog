@@ -143,7 +143,7 @@ export default function Landingpage() {
                     </div>
                 </article>
 
-                <article className="about" id="about">
+                <article className="about" id="priceList">
                     <button>
                         Price List
                     </button>
