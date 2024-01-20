@@ -166,9 +166,10 @@ export default function Landingpage() {
                         <span className="d-flex">
                             <div className=" d-flex sosial-item" >
                                 <Link href="https://www.instagram.com/ezprog_/" target="_blank"> <img src="ig.svg"/> </Link>
+                                <Link aria-label="Chat on WhatsApp" href="https://wa.me/+6285240899096" target="_blank"><img src="wa.svg" /></Link>
                                 <img src="fb.svg" />
                                 <img src="ytb.svg" />
-                                <img src="twit.svg" />
+                                {/* <img src="twit.svg" /> */}
                             </div>
                         </span>
                     </div>
