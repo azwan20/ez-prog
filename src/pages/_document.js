@@ -25,6 +25,7 @@ export default function Document() {
         {/* <img src='/logo.svg' /> */}
         <link rel="icon" href="/logo-warna.svg" />
         <meta name="description" content="Freelancer | Web | Mobile | Machine Learning | UI-UX | Design" />
+        <meta name="keywords" content="ezprog, jasa pembuatan web, jasa pembuatan mobile" />
 
       </Head>
       <body>
